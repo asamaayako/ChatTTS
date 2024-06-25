@@ -1,4 +1,5 @@
 numpy<2.0.0
+numba
 omegaconf>=2.3.0
 torch>=2.1.0
 tqdm
@@ -8,6 +9,7 @@ vocos
 IPython
 gradio
 python-dotenv
-pynini==2.1.5
-WeTextProcessing
-nemo_text_processing
+pybase16384
+pynini==2.1.5; sys_platform == 'linux'
+WeTextProcessing; sys_platform == 'linux'
+nemo_text_processing; sys_platform == 'linux'
